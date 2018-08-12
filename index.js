@@ -12,6 +12,9 @@ let newID = oldID + 1000000000;
 
 function validAge() {
 if (currentAge % 1 ==0)
-
+{
 var ageIsValid = true;
+}
+else
+var ageIsValid = false;
 }
