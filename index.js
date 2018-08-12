@@ -11,10 +11,10 @@ You should NOT try to redefine any of the above variables.
 let newID = oldID + 1000000000;
 
 function validAge() {
-if (currentAge % 1 ==0)
+if (currentAge % 1 === 0)
 {
 var ageIsValid = true;
 }
 else
-var ageIsValid = false;
+ageIsValid = false;
 }
